@@ -1,0 +1,33 @@
+.container {
+	border: 1px solid #f00;
+	height: 100vh;
+	background: url(http://www.planwallpaper.com/static/images/cool_wooden_wall_1920x1200_cool_twitter_backgrounds.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-item: center;
+}
+
+h1 {
+	color: #f00;
+	font-size: 28px;
+	font-weight: 600;
+}
+p  {
+	display: inline-block;
+	border: 1px solid #0f0;
+}
+
+article {
+  max-width: 600px ;
+  margin: 0 auto;
+}
+p{
+  padding-bottom: 20px ;
+  line-height: 1.5em
+}
